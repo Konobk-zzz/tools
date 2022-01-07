@@ -49,4 +49,5 @@ out/
 .gradle/
 
 # rap2Helper
-rap2Helper/rap2_helper_cache/
+rap2_helper/.idea/
+rap2_helper/__pycache__/
