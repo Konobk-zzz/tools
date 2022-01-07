@@ -1,0 +1,52 @@
+# git ignore
+.git/
+
+# subversion ignore
+.svn/
+
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# srping ignore
+bin/
+.springBeans
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# vs code ignore
+.factorypath
+.vscode/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# out
+out/
+
+# .gradle
+.gradle/
+
+# rap2Helper
+rap2Helper/rap2_helper_cache/
