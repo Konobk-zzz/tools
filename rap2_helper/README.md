@@ -8,7 +8,7 @@
 
 ### 一、登录rap2，记录Cookie值
 
-​	![image-20220107190144029](pic/README/image-20220107190144029.png)
+​    ![image-20220107190144029](pic/README/image-20220107190144029.png)
 
 ### 二、进入要修改的接口，记录URL中的`itf`
 
@@ -32,14 +32,12 @@
 
 打开脚本，按照提示输入参数：
 
-![image-20220107213210091](pic/README/image-20220107213210091.png)
+![image-20220108105803692](pic/README/image-20220108105803692.png)
 
 把第三步准备好的字段名与描述的映射数据贴进去，换行输入`#`结束。
 
-![image-20220107213314655](pic/README/image-20220107213314655.png)
+![image-20220108105928445](pic/README/image-20220108105928445.png)
 
-## 注意事项
+## 备注
 
-- rap2地址默认为公司的地址 `rap.yscredit.com`，有需要修改的自己改一下脚本
 - 使用`pyinstaller`打包成exe，命令`pyinstaller -F --hidden-import 'requests' rap2_helper.py`
-
