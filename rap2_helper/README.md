@@ -37,3 +37,9 @@
 把第三步准备好的字段名与描述的映射数据贴进去，换行输入`#`结束。
 
 ![image-20220107213314655](pic/README/image-20220107213314655.png)
+
+## 注意事项
+
+- rap2地址默认为公司的地址 `rap.yscredit.com`，有需要修改的自己改一下脚本
+- 使用`pyinstaller`打包成exe，命令`pyinstaller -F --hidden-import 'requests' rap2_helper.py`
+
