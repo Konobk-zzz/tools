@@ -112,7 +112,7 @@ if __name__ == '__main__':
     # 尝试读取本地缓存的Rap2Url
     rap_address = read_cache('rap_address')
     if not rap_address:
-        rap_address = input('请输入Rap2地址（示例 \'rap.yscredit.com\'）：')
+        rap_address = input('请输入Rap2地址（示例 \'rap.xxx.com\'）：')
         if not rap_address:
             print('[ERROR] Rap2地址不能为空')
             sys.exit()
